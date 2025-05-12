@@ -20,7 +20,7 @@ st.title("Modelo de Pronóstico de Turistas Extranjeros")
 st.markdown("Este modelo permite realizar predicciones utilizando Regresión Lineal, Holt-Winters o ARIMA.")
 
 # Cargar el dataset
-dataset_path = "d:\\web-turismo\\turistas_extranjeros.csv"
+dataset_path = "./turistas_extranjeros.csv"
 df = pd.read_csv(dataset_path)
 
 # Convertir la columna 'Fecha' a formato datetime
